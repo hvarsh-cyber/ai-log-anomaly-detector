@@ -1,0 +1,267 @@
+{
+    "scan_time": "2026-06-17 19:15:03",
+    "total_logs_analyzed": 531,
+    "total_anomalies": 22,
+    "anomalies": [
+        {
+            "timestamp": "2026-06-17 05:30:37",
+            "ip": "198.51.100.23",
+            "endpoint": "/.env",
+            "status_code": 404,
+            "anomaly_score": -0.7460356810846189,
+            "reasons": [
+                "High failure rate from this IP (100% failed)",
+                "Access during unusual hours (5:00)"
+            ]
+        },
+        {
+            "timestamp": "2026-06-17 05:30:53",
+            "ip": "198.51.100.23",
+            "endpoint": "/admin",
+            "status_code": 403,
+            "anomaly_score": -0.7304197666876182,
+            "reasons": [
+                "High failure rate from this IP (100% failed)",
+                "Access during unusual hours (5:00)",
+                "Unauthorized/forbidden access attempt (HTTP 403)"
+            ]
+        },
+        {
+            "timestamp": "2026-06-17 05:30:17",
+            "ip": "198.51.100.23",
+            "endpoint": "/api/admin/users",
+            "status_code": 403,
+            "anomaly_score": -0.7297589063192632,
+            "reasons": [
+                "High failure rate from this IP (100% failed)",
+                "Access during unusual hours (5:00)",
+                "Unauthorized/forbidden access attempt (HTTP 403)"
+            ]
+        },
+        {
+            "timestamp": "2026-06-17 05:30:08",
+            "ip": "198.51.100.23",
+            "endpoint": "/api/keys",
+            "status_code": 403,
+            "anomaly_score": -0.7107577822417719,
+            "reasons": [
+                "High failure rate from this IP (100% failed)",
+                "Access during unusual hours (5:00)",
+                "Unauthorized/forbidden access attempt (HTTP 403)"
+            ]
+        },
+        {
+            "timestamp": "2026-06-17 09:45:47",
+            "ip": "203.0.113.45",
+            "endpoint": "/login",
+            "status_code": 401,
+            "anomaly_score": -0.6828801052757663,
+            "reasons": [
+                "High request volume from this IP (23 requests in 5 min)",
+                "High failure rate from this IP (100% failed)",
+                "Unauthorized/forbidden access attempt (HTTP 401)"
+            ]
+        },
+        {
+            "timestamp": "2026-06-17 05:30:15",
+            "ip": "198.51.100.23",
+            "endpoint": "/config",
+            "status_code": 403,
+            "anomaly_score": -0.6774936309356621,
+            "reasons": [
+                "High failure rate from this IP (100% failed)",
+                "Access during unusual hours (5:00)",
+                "Unauthorized/forbidden access attempt (HTTP 403)"
+            ]
+        },
+        {
+            "timestamp": "2026-06-17 09:45:41",
+            "ip": "203.0.113.45",
+            "endpoint": "/login",
+            "status_code": 401,
+            "anomaly_score": -0.6696227010369089,
+            "reasons": [
+                "High request volume from this IP (20 requests in 5 min)",
+                "High failure rate from this IP (100% failed)",
+                "Unauthorized/forbidden access attempt (HTTP 401)"
+            ]
+        },
+        {
+            "timestamp": "2026-06-17 09:45:51",
+            "ip": "203.0.113.45",
+            "endpoint": "/login",
+            "status_code": 401,
+            "anomaly_score": -0.6667969513071588,
+            "reasons": [
+                "High request volume from this IP (25 requests in 5 min)",
+                "High failure rate from this IP (100% failed)",
+                "Unauthorized/forbidden access attempt (HTTP 401)"
+            ]
+        },
+        {
+            "timestamp": "2026-06-17 09:45:49",
+            "ip": "203.0.113.45",
+            "endpoint": "/login",
+            "status_code": 401,
+            "anomaly_score": -0.659973565895923,
+            "reasons": [
+                "High request volume from this IP (24 requests in 5 min)",
+                "High failure rate from this IP (100% failed)",
+                "Unauthorized/forbidden access attempt (HTTP 401)"
+            ]
+        },
+        {
+            "timestamp": "2026-06-17 09:45:35",
+            "ip": "203.0.113.45",
+            "endpoint": "/login",
+            "status_code": 401,
+            "anomaly_score": -0.6579914069385906,
+            "reasons": [
+                "High request volume from this IP (17 requests in 5 min)",
+                "High failure rate from this IP (100% failed)",
+                "Unauthorized/forbidden access attempt (HTTP 401)"
+            ]
+        },
+        {
+            "timestamp": "2026-06-17 09:45:37",
+            "ip": "203.0.113.45",
+            "endpoint": "/login",
+            "status_code": 401,
+            "anomaly_score": -0.6488681366639794,
+            "reasons": [
+                "High request volume from this IP (18 requests in 5 min)",
+                "High failure rate from this IP (100% failed)",
+                "Unauthorized/forbidden access attempt (HTTP 401)"
+            ]
+        },
+        {
+            "timestamp": "2026-06-17 09:45:45",
+            "ip": "203.0.113.45",
+            "endpoint": "/login",
+            "status_code": 401,
+            "anomaly_score": -0.6469885690760354,
+            "reasons": [
+                "High request volume from this IP (22 requests in 5 min)",
+                "High failure rate from this IP (100% failed)",
+                "Unauthorized/forbidden access attempt (HTTP 401)"
+            ]
+        },
+        {
+            "timestamp": "2026-06-17 09:45:43",
+            "ip": "203.0.113.45",
+            "endpoint": "/login",
+            "status_code": 401,
+            "anomaly_score": -0.6369022443947188,
+            "reasons": [
+                "High request volume from this IP (21 requests in 5 min)",
+                "High failure rate from this IP (100% failed)",
+                "Unauthorized/forbidden access attempt (HTTP 401)"
+            ]
+        },
+        {
+            "timestamp": "2026-06-17 09:45:23",
+            "ip": "203.0.113.45",
+            "endpoint": "/login",
+            "status_code": 401,
+            "anomaly_score": -0.6253390842551474,
+            "reasons": [
+                "High request volume from this IP (11 requests in 5 min)",
+                "High failure rate from this IP (100% failed)",
+                "Unauthorized/forbidden access attempt (HTTP 401)"
+            ]
+        },
+        {
+            "timestamp": "2026-06-17 09:45:31",
+            "ip": "203.0.113.45",
+            "endpoint": "/login",
+            "status_code": 401,
+            "anomaly_score": -0.62462741671332,
+            "reasons": [
+                "High request volume from this IP (15 requests in 5 min)",
+                "High failure rate from this IP (100% failed)",
+                "Unauthorized/forbidden access attempt (HTTP 401)"
+            ]
+        },
+        {
+            "timestamp": "2026-06-17 09:45:39",
+            "ip": "203.0.113.45",
+            "endpoint": "/login",
+            "status_code": 401,
+            "anomaly_score": -0.6241421858521866,
+            "reasons": [
+                "High request volume from this IP (19 requests in 5 min)",
+                "High failure rate from this IP (100% failed)",
+                "Unauthorized/forbidden access attempt (HTTP 401)"
+            ]
+        },
+        {
+            "timestamp": "2026-06-17 09:45:25",
+            "ip": "203.0.113.45",
+            "endpoint": "/login",
+            "status_code": 401,
+            "anomaly_score": -0.6166293446340048,
+            "reasons": [
+                "High request volume from this IP (12 requests in 5 min)",
+                "High failure rate from this IP (100% failed)",
+                "Unauthorized/forbidden access attempt (HTTP 401)"
+            ]
+        },
+        {
+            "timestamp": "2026-06-17 09:45:05",
+            "ip": "203.0.113.45",
+            "endpoint": "/login",
+            "status_code": 401,
+            "anomaly_score": -0.6165576814845061,
+            "reasons": [
+                "High failure rate from this IP (100% failed)",
+                "Unauthorized/forbidden access attempt (HTTP 401)"
+            ]
+        },
+        {
+            "timestamp": "2026-06-17 09:45:03",
+            "ip": "203.0.113.45",
+            "endpoint": "/login",
+            "status_code": 401,
+            "anomaly_score": -0.615720195550902,
+            "reasons": [
+                "High failure rate from this IP (100% failed)",
+                "Unauthorized/forbidden access attempt (HTTP 401)"
+            ]
+        },
+        {
+            "timestamp": "2026-06-17 09:45:07",
+            "ip": "203.0.113.45",
+            "endpoint": "/login",
+            "status_code": 401,
+            "anomaly_score": -0.6153317728987426,
+            "reasons": [
+                "High failure rate from this IP (100% failed)",
+                "Unauthorized/forbidden access attempt (HTTP 401)"
+            ]
+        },
+        {
+            "timestamp": "2026-06-17 09:45:33",
+            "ip": "203.0.113.45",
+            "endpoint": "/login",
+            "status_code": 401,
+            "anomaly_score": -0.6121325714026714,
+            "reasons": [
+                "High request volume from this IP (16 requests in 5 min)",
+                "High failure rate from this IP (100% failed)",
+                "Unauthorized/forbidden access attempt (HTTP 401)"
+            ]
+        },
+        {
+            "timestamp": "2026-06-17 09:45:29",
+            "ip": "203.0.113.45",
+            "endpoint": "/login",
+            "status_code": 401,
+            "anomaly_score": -0.6042036309042352,
+            "reasons": [
+                "High request volume from this IP (14 requests in 5 min)",
+                "High failure rate from this IP (100% failed)",
+                "Unauthorized/forbidden access attempt (HTTP 401)"
+            ]
+        }
+    ]
+}
